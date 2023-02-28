@@ -146,7 +146,7 @@ body {
     font-size: 0;
     border: none;
     background-color: #131313;
-    width: 2px;
+    width: 4px;
     height: 25px;
     border-radius: 7px;
     cursor: pointer;
@@ -606,6 +606,11 @@ body {
         right: 0%;
         top: -55px;
         transform: translateX(50%);
+    }
+
+    .slider__img {
+        object-fit: cover;
+        height: 300px;
     }
 }
 
